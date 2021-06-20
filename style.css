@@ -405,9 +405,9 @@ nav {
 }
 
 .flight-section {
-  background-image: url(images/karsten-winegeart-fd1cQ3mmBTE-unsplash.jpg);
+  background-image: url(images/chris-leipelt-6w_dYdazo20-unsplash.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   color: white;
 }
 
@@ -725,7 +725,7 @@ li .quick-links {
 }
 
 .services-section {
-  background-image: url(images/services-final.jpg);
+  background-image: url(images/Frame\ 7.png);
   background-size: cover;
   background-position: center;
   color: white;
@@ -771,4 +771,57 @@ li .quick-links {
 
 .navbar-link:not(.is-arrowless)::after {
   border-color: #ffd337;
+}
+
+.info-hero{
+  position: absolute;
+  padding: 1rem 3rem;
+  background-color: #ffd337;
+  font-size: 2.2rem;
+  border-radius: 0.825rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  top: 100px;
+  left: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  ;
+
+}
+
+@media (max-width: 1000px) {
+  .info-hero{
+    top: unset;
+    left: unset;
+    border-top-left-radius: 0.825rem;
+    border-bottom-left-radius: 0.825rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-hero{
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+  }
+}
+
+.make-relative{
+  position: relative;
+}
+
+.services-list{
+  font-size: 1.3rem;
+}
+
+.services-list > li{
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+  transition: 0.3s ease all;
+}
+
+.services-list > li:hover{
+  color: #ffd337;
 }
